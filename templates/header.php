@@ -23,33 +23,21 @@
 	      <ul class="main-nav__contacts">
 	      	<li class="social__link-one">
 		      <ul class="social__list">
-		        <li class="social__item"><a href="https://www.facebook.com/profile.php?id=100015746163178"><i class="fab fa-facebook-f"></i></a></li>
-		        <li class="social__item"><a href="https://linkedin.com/in/алексндр-фролов-a7976b163/"><i class="fab fa-linkedin-in"></i></a></li>
-		        <li class="social__item"><a href="https://vk.com/id174880448"><i class="fab fa-vk"></i></a></li>
+                  <?php foreach ($social_buttons as $key => $value): ?>
+                     <li class="social__item"><a href="<?=$value['url'];?>" target="_blank"><i class="<?=$value['class_name'];?>"></i></a></li>
+                  <?php endforeach;?>
 		      </ul>
 		    </li> 
 			<li class="social__link-two"><a href="#" class="social__link">e-mail: frol1414@gmail.com</a></li>
 		    <li class="social__link-three"><a class="social__link">Тел.: 8(931)971-55-83</a></li>
 		  </ul>
 	      <ul class="main-nav__list" id="top-menu">
-	      	<li class="active main-nav__item">
-	          <a href="#home">Главная</a>
-	        </li>
-	        <li class="main-nav__item">
-	          <a href="#anchor-aboutMe">Обо мне</a>
-	        </li>
-	        <li class="main-nav__item">
-	          <a href="#anchor-advantages">Мои преимущества</a>
-	        </li>
-	        <li class="main-nav__item">
-	          <a href="#anchor-evolution">Мой план развития</a>
-	        </li>
-	        <li class="main-nav__item">
-	          <a href="#anchor-my-jobs">Мои работы</a>
-	        </li>
-	        <li class="main-nav__item main-nav__item--contact">
-	          <a href="#anchor-question">Контакты</a>
-	        </li>
+            <?php foreach ($header_titles as $key => $value): ?>
+                <li class="active main-nav__item">
+                    <a href="<?=$value['url'];?>"><?=$value['title'];?></a>
+                </li>
+            <?php endforeach;?>
+
 	      </ul>
 	    </nav>
       </div>

@@ -46,7 +46,6 @@
 
 <body>
   <?=$header;?>
-
   <main class="main">
     <section class="aboutMe">
       <div class="wrapper">

@@ -1,0 +1,2 @@
+<?php
+$social_buttons = [];
