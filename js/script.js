@@ -1,15 +1,5 @@
-;(function ($) {
-	$(document).ready(function () {
-		var navToggle = document.querySelector(".main-nav__toggle");
-		var navWrapper = document.querySelector(".main-nav__wrapper--closed");
 
-		navToggle.addEventListener("click", function (e) {
-			e.preventDefault();
-			navToggle.classList.toggle("main-nav__toggle--closed");
-			navWrapper.classList.toggle("main-nav__wrapper--closed");
-		});
 
-		
 /* -----------------------------------------якорь--------------------------*/
 		$(".main-nav__list").on("click","a", function (event) {
 			event.preventDefault();
@@ -17,9 +7,6 @@
 			top = $(id).offset().top;
 			$('body,html').animate({scrollTop: top}, 500);
 		});
-	});
-})(jQuery);
-
 
 
 /* -----------------------------------------кнопка на верх--------------------------*/
@@ -32,10 +19,6 @@ $(function() {
     },1000);
   })
 });
-
-
-
-
 
 /* -----------------------------------------на Печатный шрифт--------------------------*/
 'use strict';
@@ -121,7 +104,7 @@ var TextScramble = function () {
 // Example
 // ——————————————————————————————————————————————————
 
-var phrases = ['Web-разработка', 'HTML5 and CSS3', 'Javascript', 'Sass and Gulp', 'PHP'];
+var phrases = ['Web-разработка', 'HTML5 and CSS3', 'Javascript', 'PHP', 'Yii2'];
 
 var el = document.querySelector('.main-header__text');
 var fx = new TextScramble(el);
@@ -136,9 +119,6 @@ var next = function next() {
 
 next();
 
-
-
-
 /* -----------------------------------------Модальное окно--------------------------*/
 
 $( document ).ready(function() {
@@ -149,3 +129,24 @@ $( document ).ready(function() {
   });
 });
 
+$(document).ready(function() {
+    // После загрузки страницы сразу делаем её прозрачной.
+    $('html, body').css({'opacity': '0'});
+    // И сразуже плавно делаем её видимой.
+    // Тем самым делаем эффект появляения страницы.
+    $("html, body").animate({
+        opacity: 1
+    }, 1500);
+
+})
+
+$(document).ready(function() {
+
+    $("html, body").animate({
+        opacity: 1
+    }, 1500);
+
+})
+
+var delay_popup = 2000;
+setTimeout("document.getElementById('overlay').style.display='block'", delay_popup);

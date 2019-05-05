@@ -11,10 +11,9 @@
     </div>
     <section class="social">
       <ul class="social__links">
-		<li><a href="https://www.facebook.com/profile.php?id=100015746163178"><i class="fab fa-facebook-f"></i></a></li>
-		<li><a href="https://linkedin.com/in/алексндр-фролов-a7976b163/"><i class="fab fa-linkedin-in"></i></a></li>
-		<li><a href="https://vk.com/id174880448"><i class="fab fa-vk"></i></a></li>
-		<li><a href="https://github.com/frol1414"><i class="fab fa-github"></i></a></li>
+          <?php foreach ($social_buttons as $key => $value): ?>
+              <li class="social__item"><a href="<?=$value['url'];?>" target="_blank"><i class="<?=$value['class_name'];?>"></i></a></li>
+          <?php endforeach;?>
 	  </ul>
     </section>
     <section class="copyright">
@@ -22,7 +21,7 @@
       <a href="mailto:frol1414@gmail.com">
         Александр Фролов
       </a>
-      <p> &#169 2017-2018 Нелицензированное использование материалов с данного ресурса запрещено.</p>
+      <p> &#169 2018-2019 Нелицензированное использование материалов с данного ресурса запрещено.</p>
       <div class="scrollup">
         <span class="scrollup-descr">Наверх</span><span class="scrollup-icon">&uarr;</span>
       </div>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apollo</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="header__main-nav navbar navbar-default">
+        <div class="header__container container-fluid">
+          <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	        </button>
+          </div>
+
+          <div class="main-nav collapse navbar-collapse" id="navbar-main">
+            <ul class="main-nav__list nav navbar-nav">
+              <li class="main-nav__item"><a href="">Home</a></li>
+              <li class="main-nav__item"><a href="">About me</a></li>
+              <li class="main-nav__item"><a href="">Portfolio</a></li>
+              <li class="main-nav__item"><a href="">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-container container-fluid">
+        <div class="row">
+          <div class="header-item col-xs-5 col-sm-5 col-md-5 col-lg-5">
+            <h2 class="header__title">Portfolio <span>Apollo</span></h2>
+            <p class="header__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            <img src="images/line.png" alt="line" class="header__img-line img-responsive">
+          </div> 
+          <div class="col-xs-5 col-sm-7 col-md-7 col-lg-7">
+          </div> 
+        </div>  
+      </div>
+    </header>
+
+    <main>
+    	<!--                           Обо мне                        -->
+
+      <div class="aboutMe container-fluid">
+        <div class="row">
+          <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+          	<!--<picture>
+	          <source srcset="images/photocamera-tablet.png" media="(min-width: 768px) and (max-width: 1200px)" class="aboutMe__img">
+	          <source srcset="img/logo-desktop.png" media="(min-width: 1200px)" class="aboutMe__img">
+	          <img src="img/logo-mobile.png" alt="Frolov" class="aboutMe__img">
+	        </picture>-->
+          </div> 
+
+          <div class="aboutMe__item col-xs-7 col-sm-7 col-md-7 col-lg-7">
+            <h2 class="aboutMe__title">
+            	<img src="images/line.png" alt="line" class="aboutMe__img-line img-responsive">My name is <span>Apollo</span>
+            </h2>
+            <p class="aboutMe__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            
+            <p class="aboutMe__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <ul class="aboutMe__social">
+              <li class="aboutMe__social-item">
+              	<a href="#">
+              	  <img src="images/facebook.png" alt="facebook" class="aboutMe__social-icon img-responsive">
+                </a>
+              </li>
+              <li class="aboutMe__social-item">
+              	<a href="#">
+              	  <img src="images/instagram.png" alt="instagram" class="aboutMe__social-icon img-responsive">
+                </a>
+              </li>
+              <li class="aboutMe__social-item">
+              	<a href="#">
+              	  <img src="images/twitter.png" alt="twitter" class="aboutMe__social-icon img-responsive">
+                </a>
+              </li>
+              <li class="aboutMe__social-item">
+              	<a href="#">
+              	  <img src="images/p.png" alt="p" class="aboutMe__social-icon img-responsive">
+                </a>
+              </li>
+
+            </ul>
+          </div> 
+        </div>  
+      </div>
+        <!--                          Портфолио 1                        -->
+      <div class="header-container container-fluid">
+        <div class="row">
+          <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		      <div id="myCarousel" class="gallery carousel slide" data-interval="3000" data-ride="carousel">  
+
+		      <div class="carousel-inner">
+		        <div class="active item carousel-inner__item">
+		    	  <picture>
+		            <source srcset="images/Slider-foto1.jpg" media="(min-width: 768px) and (max-width: 1200px)" class="aboutMe__img">
+		            <source srcset="images/Slider-foto1.jpg" media="(min-width: 1200px)" class="aboutMe__img">
+		            <img src="images/Slider-foto1.jpg" alt="foto" class="carousel__img img-responsive">
+		          </picture>
+		        </div>
+
+		        <div class="item carousel-inner__item">
+		          <picture>
+		            <source srcset="images/Slider-foto1.jpg" media="(min-width: 768px) and (max-width: 1200px)" class="aboutMe__img">
+		            <source srcset="images/Slider-foto1.jpg" media="(min-width: 1200px)" class="aboutMe__img">
+		            <img src="images/Slider-foto1.jpg" alt="foto" class="carousel__img img-responsive">
+		          </picture>
+		        </div>
+
+		        <div class="item carousel-inner__item">
+		          <picture>
+		            <source srcset="images/Slider-foto1.jpg" media="(min-width: 768px) and (max-width: 1200px)" class="aboutMe__img">
+		            <source srcset="images/Slider-foto1.jpg" media="(min-width: 1200px)" class="aboutMe__img">
+		            <img src="images/Slider-foto1.jpg" alt="foto" class="carousel__img img-responsive">
+		          </picture>
+		        </div>
+		      </div>
+		      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+		        <span class="glyphicon glyphicon-chevron-left"></span>
+		      </a>
+		      <a class="carousel-control right" href="#myCarousel" data-slide="next">
+		        <span class="glyphicon glyphicon-chevron-right"></span>
+		      </a>
+		    </div>
+		  </div>
+	    </div>
+      </div>
+    <!--                           Портфолио 2                        -->
+
+    <div class=" portfolioTwo container-fluid">
+      <div class="row">
+        <div class="portfolioTwo-item col-xs-5 col-sm-5 col-md-5 col-lg-5">
+          <h2 class="portfolioTwo__title"><span>Lorem</span> ipsum dolor</h2>
+          <p class="portfolioTwo__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+          <img src="images/line.png" alt="line" class="portfolioTwo__img-line img-responsive">
+        </div> 
+        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+        </div> 
+      </div>  
+    </div>
+    <!--                           Портфолио 3                       -->
+<!--
+    <div class="portfolioThree">
+	  <div>your content</div>
+	  <div>your content</div>
+	  <div>your content</div>
+	</div>
+-->
+    </main>
+    <!--                              Footer                         -->
+    <footer>
+      <div class="footer container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 class="footer__title"><span>Say</span> Hello</h2>
+            <p class="footer__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            
+            <section class="footer-form">
+              <form class="form" action="#" method="get">
+                <div class="form__group">
+                  <input class="email__field" type="text" name="E-mail" placeholder="E-mail">
+                  <input class="subject__field" type="text" name="subject" placeholder="subject">
+                </div>
+                <input class="message__field" name="message" placeholder="Message">
+                <button type="submit" class="form__btn">Send Message</button>
+              </form>
+            </section>
+          </div> 
+
+        </div>  
+      </div>
+    </footer>
+     
+
+
+   
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>

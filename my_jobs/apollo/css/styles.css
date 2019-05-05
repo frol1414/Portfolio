@@ -1,0 +1,403 @@
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table; }
+
+.clearfix::after {
+  clear: both; }
+
+.hidden {
+  position: absolute;
+  top: -9999999px;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  background-color: transparent;
+  color: transparent; }
+
+html {
+  font-size: 14px; }
+
+body {
+  margin: 0 0;
+  padding: 0 0;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #283645;
+  max-width: 1600px;
+  margin: 0 auto; }
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer; }
+
+/*-------------------------------------------------------------------Header---------------------------------------------------------------------------*/
+header {
+  background-color: #efefef;
+  background-image: url("../images/header-bg.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 750px;
+  max-width: 1500px;
+  max-height: 750px;
+  margin: 0 auto; }
+
+.header-item {
+  padding-left: 10%;
+  padding-top: 30px; }
+
+.header-item__line {
+  padding-top: 10px;
+  width: 2px;
+  height: 20px; }
+
+.header__title {
+  padding-top: 25%;
+  font-size: 50px;
+  font-weight: 100; }
+  .header__title span {
+    font-weight: bold; }
+
+.header__descr {
+  padding-top: 10px;
+  font-style: italic; }
+
+.header__img-line {
+  padding-top: 10px;
+  width: 1px;
+  height: 60px; }
+
+@media (max-width: 550px) {
+  header {
+    background-size: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%; }
+  .header__main-nav {
+    margin-top: 0; }
+  .header-item__line {
+    padding-top: 10px;
+    width: 2px;
+    height: 20px; }
+  .header__title {
+    padding-top: 0;
+    font-size: 30px; }
+  .header__descr {
+    font-size: 14px;
+    padding-top: 5px; }
+  .header__img-line {
+    padding-top: 5px;
+    width: 1px;
+    height: 30px; } }
+
+@media (max-width: 400px) {
+  header {
+    background-size: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%; }
+  .header__main-nav {
+    margin-top: 0; }
+  .header-item__line {
+    padding-top: 10px;
+    width: 2px;
+    height: 20px; }
+  .header__title {
+    padding-top: 0;
+    font-size: 20px; }
+  .header__descr {
+    font-size: 12px;
+    padding-top: 5px; }
+  .header__img-line {
+    padding-top: 5px;
+    width: 1px;
+    height: 30px; } }
+
+/*-------------------------------------------------------------------AboutMe---------------------------------------------------------------------------*/
+.aboutMe {
+  margin: 0 0;
+  padding: 0 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #efefef;
+  background-image: url("../images/photocamera-bg.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 750px;
+  max-width: 1500px;
+  max-height: 750px;
+  margin-bottom: 50px; }
+
+.aboutMe__title {
+  position: relative;
+  padding-left: 100px;
+  padding-top: 25%;
+  font-size: 50px;
+  font-weight: 100; }
+  .aboutMe__title span {
+    font-weight: bold; }
+
+.aboutMe__descr {
+  margin-top: 30px;
+  font-style: italic;
+  font-size: 18px; }
+
+.aboutMe__item {
+  padding-left: 5%;
+  padding-right: 15%; }
+
+.aboutMe__img-line {
+  position: absolute;
+  top: 142px;
+  left: 40px;
+  transform: rotate(90deg);
+  width: 1px; }
+
+.aboutMe__social {
+  margin-top: 50px;
+  padding: 0 0;
+  display: flex; }
+  .aboutMe__social li {
+    list-style: none;
+    margin-right: 20px; }
+
+.aboutMe__social-item a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-color: #909090; }
+  .aboutMe__social-item a img {
+    margin: auto auto;
+    padding-top: 8px; }
+
+@media (max-width: 1100px) {
+  .aboutMe {
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    max-width: 1500px;
+    max-height: 750px;
+    margin-bottom: 10px; }
+  .aboutMe__title {
+    padding-left: 50px;
+    padding-top: 0;
+    font-size: 40px; }
+  .aboutMe__descr {
+    font-size: 16px;
+    padding-top: 0; }
+  .aboutMe__item {
+    padding-left: 5%;
+    padding-right: 8%; }
+  .aboutMe__img-line {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: rotate(90deg);
+    width: 1px;
+    height: 30px; }
+  .aboutMe__social {
+    margin-top: 20px; }
+  .aboutMe__social-item a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #909090; }
+    .aboutMe__social-item a img {
+      margin: auto auto;
+      padding-top: 8px; } }
+
+@media (max-width: 550px) {
+  .aboutMe {
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    max-width: 1500px;
+    max-height: 750px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .aboutMe__title {
+    padding-left: 50px;
+    padding-top: 0;
+    font-size: 30px; }
+  .aboutMe__descr {
+    font-size: 14px;
+    padding-top: 0; }
+  .aboutMe__item {
+    padding-left: 5%;
+    padding-right: 8%; }
+  .aboutMe__img-line {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: rotate(90deg);
+    width: 1px;
+    height: 30px; }
+  .aboutMe__social {
+    margin-top: 20px; }
+  .aboutMe__social-item a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #909090; }
+    .aboutMe__social-item a img {
+      margin: auto auto;
+      padding-top: 2px; } }
+
+/*-------------------------------------------------------------------portfolioOne---------------------------------------------------------------------------*/
+.gallery {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1500px; }
+
+.carousel__img {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #ffffff; }
+
+/*-------------------------------------------------------------------portfolioTwo---------------------------------------------------------------------------*/
+.portfolioTwo {
+  margin: 0 0;
+  padding: 0 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #efefef;
+  background-image: url("../images/portfolio-bg.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 750px;
+  max-width: 1500px;
+  max-height: 750px; }
+
+.portfolioTwo-item {
+  padding-left: 11%;
+  padding-top: 7%; }
+
+.portfolioTwo__title {
+  padding-top: 25%;
+  font-size: 50px;
+  font-weight: 100; }
+  .portfolioTwo__title span {
+    font-weight: bold; }
+
+.portfolioTwo__descr {
+  padding-top: 10px;
+  font-style: italic;
+  font-size: 18px; }
+
+.portfolioTwo__img-line {
+  padding-top: 10px;
+  width: 1px;
+  height: 60px; }
+
+@media (max-width: 550px) {
+  .portfolioTwo {
+    margin-top: 20px;
+    background-size: 100%;
+    height: 100%;
+    max-width: 1500px;
+    max-height: 750px; }
+  .portfolioTwo-item {
+    padding-left: 11%;
+    padding-top: 7%; }
+  .portfolioTwo__title {
+    padding-top: 0;
+    font-size: 30px; }
+  .portfolioTwo__descr {
+    font-size: 14px; } }
+
+/*-------------------------------------------------------------------Footer---------------------------------------------------------------------------*/
+.footer {
+  margin: 0 0;
+  padding: 0 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #efefef;
+  background-image: url("../images/footer-bg.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 750px;
+  max-width: 1500px;
+  max-height: 750px;
+  padding: 0 15%; }
+
+.footer__title {
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: 100;
+  font-size: 50px; }
+  .footer__title span {
+    font-weight: bold; }
+
+.footer__descr {
+  text-align: center;
+  margin-bottom: 80px;
+  font-style: italic;
+  font-size: 18px; }
+
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 850px; }
+
+.form__group {
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
+.email__field,
+.subject__field {
+  margin: 0 0;
+  padding: 0 0;
+  width: 280px;
+  height: 45px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  text-indent: 15px; }
+
+.email__field {
+  margin-right: 23px; }
+
+.message__field {
+  max-width: 585px;
+  width: 100%;
+  height: 130px;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  text-indent: 15px; }
+
+.form__btn {
+  max-width: 585px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 45px;
+  background-color: #000000;
+  color: #ffffff;
+  border: transparent;
+  border-radius: 3px; }
+
+@media (max-width: 850px) {
+  .email__field,
+  .subject__field {
+    max-width: 585px;
+    width: 100%; }
+  .email__field {
+    margin-bottom: 20px; }
+  .email__field {
+    margin-right: 0; } }

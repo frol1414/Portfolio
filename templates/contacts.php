@@ -9,7 +9,7 @@
 			<li class="question__item">
 			  <ul class="question__contact">	
 			    <li><i class="question__icon fas fa-phone"></i><span class="question__description">Тел.: 8(931)971-55-83 <br>(Whatsapp, Viber, Telegram)</span> </li>
-                <li><i class="question__icon fas fa-envelope"></i><a class="question__description" href="frol1414@gmail.com">frol1414@gmail.com</a> </li>
+                <li><i class="question__icon fas fa-envelope"></i><a class="question__description">frol1414@gmail.com</a> </li>
                 <li><i class="question__icon fab fa-vk"></i><a class="question__description" href="https://vk.com/id174880448">vk.com/aleksandr_frolov</a> </li>
               </ul>
 			</li>
