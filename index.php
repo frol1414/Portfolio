@@ -7,10 +7,6 @@ if (!$connect) {
 
 $title = 'Fasdecom';
 
-/*$page_content = include_template('index.php', [
-    'task_list' => $task_list, 
-    'show_complete_tasks' => $show_complete_tasks
-]);*/
 $header_content = include_template('header.php', [
     'social_buttons' => get_data($connect, 'social_buttons'),
 	'header_titles' => get_data($connect, 'header_titles')

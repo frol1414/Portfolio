@@ -515,37 +515,77 @@ constructor(position = new Vector()) {
 
 let levels = [
     [
-      // "     v                 ",
-      "                       ",
-      "                       ",
-      "                       ",
-      "                       ",
-      "  |xxx       w         ",
-      "  o                 o  ",
-      "                  = x  ",
-      "  x          o o    x  ",
-      "  x  @    *  xxxxx  x  ",
-      "  xxxxx             x  ",
-      "      x!!!!!!!!!!!!!x  ",
-      "      xxxxxxxxxxxxxxx  ",
-      "                       "
-    ],
-    [
-      // "     v                 ",
-      "                       ",
-      "                       ",
-      "                       ",
-      "                       ",
-      "  |                    ",
-      "  o                 o  ",
-      "  x  xx        =    x  ",
-      "  x            o    x  ",
-      "  x  @      xxxxxx  x  ",
-      "  xxxxx             x  ",
-      "      x!!!!!!!!!!!!!x  ",
-      "      xxxxxxxxxxxxxxx  ",
-      "                       "
-    ],
+    "     v                 ",
+    "                       ",
+    "                       ",
+    "                       ",
+    "                       ",
+    "  |xxx       w         ",
+    "  o                 o  ",
+    "  x               = x  ",
+    "  x          o o    x  ",
+    "  x  @    *  xxxxx  x  ",
+    "  xxxxx             x  ",
+    "      x!!!!!!!!!!!!!x  ",
+    "      xxxxxxxxxxxxxxx  ",
+    "                       "
+  ],
+
+  [
+    "     v                 ",
+    "                       ",
+    "                       ",
+    "                       ",
+    "                       ",
+    "  |                    ",
+    "  o                 o  ",
+    "  x               = x  ",
+    "  x          o o    x  ",
+    "  x  @       xxxxx  x  ",
+    "  xxxxx             x  ",
+    "      x!!!!!!!!!!!!!x  ",
+    "      xxxxxxxxxxxxxxx  ",
+    "                       "
+  ],
+
+  [
+    "        |           |  ",
+    "                       ",
+    "                       ",
+    "                       ",
+    "                       ",
+    "                       ",
+    "                       ",
+    "                       ",
+    "                       ",
+    "     |                 ",
+    "                       ",
+    "         =      |      ",
+    " @ |  o            o   ",
+    "xxxxxxxxx!!!!!!!xxxxxxx",
+    "                       "
+  ],
+
+  [
+    "                       ",
+    "                       ",
+    "                       ",
+    "    o                  ",
+    "    x      | x!!x=     ",
+    "         x             ",
+    "                      x",
+    "                       ",
+    "                       ",
+    "                       ",
+    "               xxx     ",
+    "                       ",
+    "                       ",
+    "       xxx  |          ",
+    "                       ",
+    " @                     ",
+    "xxx                    ",
+    "                       "
+  ],
 ];
 const actorDict = {
   '@': Player,
@@ -556,7 +596,7 @@ const actorDict = {
 };
 const parser = new LevelParser(actorDict);
 runGame(levels, parser, DOMDisplay)
-  .then(() => alert('Вы выиграли приз!'));
+  .then(() => alert('Вы прошли игру!'));
 
 
 const grid = [
