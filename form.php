@@ -1,14 +1,9 @@
 <?php 
-/*
-Форма обратной связи может получать сообщения с любых почтовых ящиков.
-Исправлена проблема кодировки при получении писем почтовым клиентом Outlook.
-Вы скачали её с сайта Epic Blog https://epicblog.net Заходите на сайт снова!
-ВНИМАНИЕ! Лучше всего в переменную myemail прописать почту домена, который использует сайт. А не mail.ru, gmail и тд.
-*/
+
 if(isset($_POST['submit'])){
 /* Устанавливаем e-mail Кому и от Кого будут приходить письма */   
-$to = "frol1414@gmail.com"; // Здесь нужно написать e-mail, куда будут приходить письма   
-$from = "frol1414@yandex.ru"; // Здесь нужно написать e-mail, от кого будут приходить письма, например no-reply(собака)epicblog.net
+$to = "frol1414@gmail.com"; 
+$from = "frol1414@yandex.ru"; 
  
 /* Указываем переменные, в которые будет записываться информация с формы */
 $first_name = $_POST['first_name'];
@@ -37,11 +32,11 @@ $headers = "From: $from \r\n";
 /* Отправка сообщения, с помощью функции mail() */
 mail($to, $subject, $mail_to_myemail, $headers . 'Content-type: text/plain; charset=utf-8');
 echo "Сообщение отправлено. Спасибо Вам " . $first_name . ", мы скоро свяжемся с Вами.";
-echo "<br /><br /><a href='https://epicblog.net'>Вернуться на сайт.</a>";
+echo "<br /><br /><a href='https://fasdecom.ru'>Вернуться на сайт.</a>";
 }
 ?>
 <!--Переадресация на главную страницу сайта, через 3 секунды-->
 <script language="JavaScript" type="text/javascript">
-function changeurl(){eval(self.location="https://epicblog.net");}
-window.setTimeout("changeurl();",3000);
+function changeurl(){eval(self.location="https://fasdecom.ru");}
+window.setTimeout("changeurl();",1000);
 </script>

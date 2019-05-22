@@ -12,9 +12,7 @@
   <link rel="icon" href="img/favicon-1.ico" type="image/x-icon"/>
   <link rel="shortcut icon" href="img/favicon-1.ico" type="image/x-icon"/>
   <link rel="stylesheet" href="css/normilize.css">
-
   <link rel="stylesheet" href="css/style.css">
-  
 
   <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
