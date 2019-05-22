@@ -15,6 +15,7 @@ $my_jobs_content = include_template('my_jobs.php', [
     'my_jobs' => get_data($connect, 'my_jobs')
 ]);
 $contacts_content = include_template('contacts.php', []);
+$form_content = include_template('form.php', []);
 $modal_window_content = include_template('modal_window.php', []);
 $modal_window_find_job = include_template('find_job.php', []);
 $footer_content = include_template('footer.php', [
@@ -26,6 +27,7 @@ $index_content = include_template('index.php', [
     'header' => $header_content,
     'my_jobs' => $my_jobs_content,
     'contacts' => $contacts_content,
+    'form' => $form_content,
     'modal_window' => $modal_window_content,
     'find_job' => $modal_window_find_job,
     'footer' => $footer_content

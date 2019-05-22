@@ -12,7 +12,9 @@
   <link rel="icon" href="img/favicon-1.ico" type="image/x-icon"/>
   <link rel="shortcut icon" href="img/favicon-1.ico" type="image/x-icon"/>
   <link rel="stylesheet" href="css/normilize.css">
+
   <link rel="stylesheet" href="css/style.css">
+  
 
   <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
@@ -203,20 +205,23 @@
 	    
       </div>
     </section>
-
+<!--Content my jobs-->
     <?=$my_jobs;?>
 
+<!--Content contacts-->
     <?=$contacts;?>
 
+<!--Content form-->
+    <?=$form;?>
   </main>
 
+<!--Modal window Footer-->
   <?=$footer;?>
 
-<!--Модальное окно-->
-
+<!--Modal window-->
   <?=$modal_window;?>
 
-  <!--Модальное окно-->
+  <!--Modal window looking for the job-->
   <?=$find_job;?>
 
   <script defer src="js/jquery-3.3.1.min.js"></script>

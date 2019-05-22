@@ -21,7 +21,7 @@
       <a href="mailto:frol1414@gmail.com">
         Александр Фролов
       </a>
-      <p> &#169 2018-2019 Нелицензированное использование материалов с данного ресурса запрещено.</p>
+      <p> &#169 <?php echo date('Y');?> Нелицензированное использование материалов с данного ресурса запрещено.</p>
       <div class="scrollup">
         <span class="scrollup-descr">Наверх</span><span class="scrollup-icon">&uarr;</span>
       </div>
