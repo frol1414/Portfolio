@@ -10,7 +10,7 @@ $first_name = $_POST['first_name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
-$subject = "Форма отправки сообщений с сайта Epic Blog";
+$subject = "";
      
 /* Проверка правильного написания e-mail адреса */
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
@@ -31,12 +31,12 @@ $headers = "From: $from \r\n";
      
 /* Отправка сообщения, с помощью функции mail() */
 mail($to, $subject, $mail_to_myemail, $headers . 'Content-type: text/plain; charset=utf-8');
-echo "Сообщение отправлено. Спасибо Вам " . $first_name . ", мы скоро свяжемся с Вами.";
-echo "<br /><br /><a href='https://fasdecom.ru'>Вернуться на сайт.</a>";
+echo "Сообщение отправлено. Спасибо, что связались со мной.";
+echo "<br /><br /><a href='http://fasdecom.ru'>Вернуться на сайт.</a>";
 }
 ?>
 <!--Переадресация на главную страницу сайта, через 3 секунды-->
 <script language="JavaScript" type="text/javascript">
-function changeurl(){eval(self.location="https://fasdecom.ru");}
-window.setTimeout("changeurl();",1000);
+function changeurl(){eval(self.location="http://fasdecom.ru");}
+window.setTimeout("changeurl();",3000);
 </script>

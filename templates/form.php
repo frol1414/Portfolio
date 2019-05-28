@@ -1,28 +1,26 @@
 <section class="form">
 	<div class="wrapper">
-		<h2 class="contact-form__title">Связаться со мной<span></span></h2>
 
 	<form class="contact_form" action="form.php" method="post" name="contact_form">
 	    <ul>
 	        <li>
 	             <h2>Связаться со мной</h2>
-	             <span class="required_notification">* Denotes Required Field</span>
 	        </li>
 	        <li>
 	            <label for="first_name">Ваше имя:</label>
-	            <input type="text"  placeholder="Иван Иванов" required />
+	            <input type="text"  placeholder="Иван Иванов"/>
 	        </li>
 	        <li>
 	            <label for="email">Email:</label>
-	            <input type="email" name="email" placeholder="john_doe@example.com" required />
+	            <input type="email" name="email" placeholder="ivanov1961@mail.ru" required />
 	        </li>
 	        <li>
 	            <label for="phone">Телефон:</label>
-	            <input type="text" name="phone" placeholder="john_doe@example.com" required />
+	            <input type="text" name="phone" placeholder="+7(999)999-99-99" />
 	        </li>
 	        <li>
 	            <label for="message">Текст сообщения:</label>
-	            <textarea name="message" cols="40" rows="6" required ></textarea>
+	            <textarea name="message" cols="30" rows="6" required ></textarea>
 	        </li>
 	        <li>
 	        	<button class="submit" name="submit" type="submit">Отправить</button>
