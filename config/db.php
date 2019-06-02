@@ -1,13 +1,12 @@
 <?php
-$db = [
-    'host' => 'localhost',
-    'user' => 'root',
-    'password' => '123456',
-    'database' => 'portfolio'
-];
 
-$connect = mysqli_connect($db['host'], $db['user'], $db['password'], $db['database']);
-mysqli_set_charset($connect, "utf8");
-
-
-?>
+function db_connect(){
+    static $db;
+    
+    if($db === null){
+        $db = new PDO('mysql:host=localhost;dbname=portfolio', 'root', '123456');
+        $db->exec('SET NAMES UTF8');
+    }
+    
+    return $db;
+}
