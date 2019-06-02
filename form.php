@@ -11,7 +11,7 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
 $subject = "";
-     
+
 /* Проверка правильного написания e-mail адреса */
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
 {

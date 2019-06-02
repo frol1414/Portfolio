@@ -1,2 +1,2 @@
 <?php
-$social_buttons = [];
+$main_title = 'Александр Фролов';

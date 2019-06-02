@@ -6,7 +6,7 @@
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Александр Фролов</title>
+  <title><?=$main_title;?></title>
   <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
   <link rel="icon" href="img/favicon-1.ico" type="image/x-icon"/>
