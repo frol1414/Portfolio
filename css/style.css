@@ -1006,18 +1006,8 @@ p {
     margin: 0 1em 1em 0
 }
 
-.evolution__description {
-    font-size: 20px
-}
-
 .evolution__list {
     font-size: 24px
-}
-
-.evolution__item {
-    border-bottom: solid 1px #d22856;
-    display: inline-block;
-    line-height: .85
 }
 
 .advantages-wrapper {
@@ -1300,7 +1290,31 @@ p {
 }
 
 .my-jobs__item {
-    width: 30%
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:768px) {
+    .my-jobs__list {
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        list-style: none;
+        margin: 0 0 30px    
+    }
+
+    .my-jobs__item {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 .my-jobs__img {
@@ -1409,6 +1423,7 @@ p {
 
 .my-jobs__descr {
     text-align: center;
+
 }
 
 .question {

@@ -178,27 +178,33 @@
 
     <section class="evolution clearfix">
       <div class="wrapper">
-      	<h2 class="evolution__title">Мой план развития<span></span></h2>
-        <p class="evolution__description">В ходе долгого изучения вакансий в данной сфере, советов бывалых программистов Хабры и других специализированных форумов выбрал для себя, как я его назвал, "план моего развития" в данной сфере. Кто скажет, что правильно, кто-то нет, всегда найдутся люди за и против, как и с телефонами: кто любит Samsung, кто-то заядлый яблокофил, а кто-то пользуется "китайцами" и, как говорится, не парится.</p>
-        <p class="evolution__description">Скажу сразу, если стоит метка "выполнено", это совсем не означает, что больше я данный пункт не учу и не познаю, что-то новое, т.к. <span class="text-color">невозможно знать все, каждый день появляется что-то новое, как к примеру, появились Flex'ы, а потом и Grid'ы,</span> это значит, что минимум я уже знаю...но это не точно.</p>
-        <p class="evolution__description">И так мой план развития таков:</p>
+      	<h2 class="evolution__title">Мои навыки<span></span></h2>
 	    <ul class="evolution__list">
-	      <li>HTML/HTML5 <span class="evolution__item">(Выполено)</span></li>	
-	      <li>CSS/CSS3, включая адаптивность, резиновую верстку, кросбраузерность <span class="evolution__item">(Выполнено Float и Flex, Grid в планах.)</span></li>
-	      <li>Bootstrap <span class="evolution__item">(Выполено)</span></li>
-	      <li>БЭМ <span class="evolution__item">(Выполено)</span></li>
-	      <li>JS, включая ES 6 <span class="evolution__item">(Выполено)</span></li>
-	      <li>Git, как же без него в современной разработке <span class="evolution__item">(Выполено)</span></li>
-	      <li>PHP, в том числе ООП <span class="evolution__item">(Выполено)</span></li>
-	      <li>Yii 2, Composer, Vagrant<span class="evolution__item">(Выполено)</span></li>
-	      <li>Sass и Gulp <span class="evolution__item">(В процессе)</li>
-	      <li>Wordpress <span class="evolution__item">(В процессе)</span></li>
-          <li>AngularJS и React (В планах)</li>
-	      <li>Pyton (В планах...когда-нибудь)</li>
-	      
-
+	      <li>HTML/HTML5</li>	
+	      	<ul>
+	      		<li>БЭМ</li>
+	      	</ul>
+	      <li>CSS/CSS3</li>
+	      	<ul>
+	      		<li>Адаптивность и кроссбраузерность</li>
+	      		<li>Bootstrap</li>
+	      	</ul>
+	      <li>JavaScript</li>
+	      	<ul>
+	      		<li>jQuery</li>
+	      		<li>Ajax</li>
+	      	</ul>
+	      <li>Git</li>
+	      <li>PHP</li>
+	      	<ul>
+	      		<li>ООП</li>
+	      		<li>Composer</li>
+	      		<li>Laravel</li>
+	      	</ul>
+	      <li>MySQL</li>
+	      <li>Wordpress</li> 
+	      <li>REST API</li> 
 	    </ul>
-	    <p class="evolution__description" id="anchor-my-jobs">Вот такой план моего развития, и как видно, что-то я уже выполнил, что-то еще в процессе. </p>
 
 	    
       </div>

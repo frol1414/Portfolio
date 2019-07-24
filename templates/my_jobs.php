@@ -19,7 +19,7 @@
         </ul>
         <h3>Это не все мои работы, полный список находится по кнопке ниже</h3>
         <div class="my-jobs__button" id="anchor-question">
-          <a href="#" class="my-jobs__button-link btn-link"><span>Посмотреть все работы</span></a>
+          <a href="" class="my-jobs__button-link btn-link"><span>Посмотреть все работы</span></a>
         </div>
       </div>
     </section>
